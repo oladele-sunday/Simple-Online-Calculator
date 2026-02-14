@@ -58,7 +58,7 @@ function calculate() {
             result = current !== 0 ? prev / current : 'Error';
             break;
         case '%':
-            result = prev % current;
+            result = current !== 0 ? prev % current : 'Error';
             break;
         default:
             return;
