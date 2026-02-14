@@ -1,0 +1,22 @@
+{
+  "name": "online-calculator",
+  "version": "1.0.0",
+  "description": "A full-stack online calculator with Node.js/Express backend and vanilla JavaScript frontend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "calculator",
+    "express",
+    "query-strings",
+    "api"
+  ],
+  "author": "Oladele Sunday O.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
